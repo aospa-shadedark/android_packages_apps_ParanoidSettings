@@ -244,4 +244,8 @@
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
 
+    <!-- Black theme -->
+    <string name="berry_black_theme_title">Use Black theme</string>
+    <string name="berry_black_theme_summary">Force black background colors</string>
+
 </resources>

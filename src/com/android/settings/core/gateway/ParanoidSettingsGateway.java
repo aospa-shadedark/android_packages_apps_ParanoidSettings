@@ -19,7 +19,6 @@ package com.android.settings.core.gateway;
 
 import co.aospa.settings.display.DcDimmingSettings;
 import co.aospa.settings.display.RefreshRateSettings;
-import co.aospa.settings.gestures.PowerButtonTorchSettings;
 
 public class ParanoidSettingsGateway {
 
@@ -29,7 +28,6 @@ public class ParanoidSettingsGateway {
      */
     public static final String[] ENTRY_FRAGMENTS = {
         DcDimmingSettings.class.getName(),
-        RefreshRateSettings.class.getName(),
-        PowerButtonTorchSettings.class.getName(),
+        RefreshRateSettings.class.getName()
     };
 }

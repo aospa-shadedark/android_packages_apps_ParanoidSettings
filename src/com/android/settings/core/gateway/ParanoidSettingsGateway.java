@@ -21,7 +21,6 @@ import co.aospa.settings.display.DcDimmingSettings;
 import co.aospa.settings.display.RefreshRateSettings;
 import co.aospa.settings.gestures.PowerButtonTorchSettings;
 import co.aospa.settings.sound.AdaptivePlaybackSoundSettings;
-import co.aospa.settings.gestures.VolumeButtonMusicControlGestureSettings;
 
 public class ParanoidSettingsGateway {
 
@@ -34,6 +33,5 @@ public class ParanoidSettingsGateway {
         RefreshRateSettings.class.getName(),
         PowerButtonTorchSettings.class.getName(),
         AdaptivePlaybackSoundSettings.class.getName(),
-        VolumeButtonMusicControlGestureSettings.class.getName(),
     };
 }
